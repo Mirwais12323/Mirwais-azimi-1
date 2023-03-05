@@ -1,0 +1,136 @@
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive; 
+    font-size: 5.625rem;
+}
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 50px;
+    font-family: 'montserrat',sans-serif;
+}
+h3 {
+    color:  #11999E;
+}
+a {
+    color:  #11999E;
+    text-decoration: none;
+}
+a:hover {
+    color:#eaf6f6;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;    
+}
+/*********** Classes Selector ************/
+.Top-Container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 100px 0 0 0;
+}
+.Middle-Container {
+    margin: 100px auto;
+}
+
+.Bottom-Container { 
+    background-color: #66BFBF;
+    height: 150px;
+
+}
+.Bottom-Cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.Contact-Me {
+    width: 50%;
+    margin: auto;
+}
+.Top-Cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.Dp {
+    height: 250px;
+    width: 250px;
+}
+.Skill {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Skills-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+   
+}
+.Developer {
+    font-size: 2.5rem;
+}
+.Skills-Row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family:'montserrat',sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 50px auto 100px auto;
+     
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }  
+  .Footer-link {
+    color: #11999E;
+    display: inline-block;
+    margin: 50px 50px 25px 50px;
+  }
+  .My-Name {
+    color: #EAF6F6;
+    font-size: 10px;
+    padding: 20px auto;
+  }
+.Profile {
+    width: 50%;
+    margin: auto;
+}
